@@ -1,0 +1,378 @@
+.bg{
+    height: 655px;
+    background-image: url("../img/land-bg.jpg");
+    background-position: -209px 0;
+}
+
+.content {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.bg-logo{
+    width: 164px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 26px;
+    background-image: url("../img/lr-spring.png");
+    margin-bottom: 18px;
+}
+
+.reg-line{
+    width: 1px;
+    height: 50px;
+    display: inline-block;
+    background-color: #bbbbbb;
+    vertical-align: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.welcome{
+    font-size:23px;
+    /*font-weight:600;*/
+    color: #555555;
+    vertical-align: 32px;
+}
+
+.register{
+    width: 510px;
+    height: 525px;
+    background-color: #fff;
+    border:1px solid #cccccc;
+    border-radius:4px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newuser{
+    font-size:20px;
+    font-weight:600;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.in{
+    width: 268px;
+    height: 38px;
+    border:1px solid;
+    border-color: #cccccc;
+    border-radius:4px;
+    margin-top: 20px;
+}
+
+.in-boss{
+    width: 371px;
+    text-align: right;
+    margin: 0 auto;
+    color: #555555;
+    font-size: 14px;
+}
+
+.star-color{
+    color: #eb5f00;
+    margin-right: 5px;
+}
+
+
+.star-t{
+    margin-right: 10px;
+}
+
+
+.mark{
+    width: 118px;
+    height: 38px;
+    border:1px solid #cccccc;
+    border-radius:4px;
+    margin-top: 20px;
+}
+
+.verify{
+    width: 100px;
+    height: 36px;
+    border-width: 0;
+    background-color: #b0b0b0;
+    color: #fff;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.agree{
+    width: 11px;
+    height: 11px;
+    border:1px solid #cccccc;
+    display: inline-block;
+    vertical-align: -2px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.agree1{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    background: url("../img/lr-spring.png") no-repeat -123px -61px;
+    left:-2px;
+}
+
+.agree2{
+    display: none;
+}
+
+.landing{
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius:4px;
+    border-width: 0;
+    background-color: #70ad46;
+    color: #fff;
+    font-weight:600;
+}
+
+input{
+    font-size: 14px;
+}
+
+s{
+    border-right: 1px solid #d9d9d9;
+    display: inline-block;
+    height: 11px;
+    margin: auto 3px;
+}
+
+
+.serve{
+    font-size: 12px;
+    color: #70ad46;
+}
+
+.serve1{
+    margin-left: 60px;
+}
+
+.serve-rt{
+    color: #999999;
+    font-size: 12px;
+}
+
+.position{
+    position: relative;
+}
+
+.i-box{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    left:338px;
+}
+
+.i-ren{
+    background: url("../img/lr-spring.png") no-repeat 2px -52px;
+}
+
+.i-lock{
+    background: url("../img/lr-spring.png") no-repeat -24px -53px;
+}
+
+.i-mail{
+    background: url("../img/lr-spring.png") no-repeat -72px -57px;
+}
+
+.i-phone{
+    background: url("../img/lr-spring.png") no-repeat -98px -53px;
+}
+
+
+.foot {
+    height: 260px;
+    background-color: #242623;
+    color: #b5b5b4;
+    border-bottom: 2px solid #444444;
+    border-bottom-width: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.link {
+    width: 810px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.link a {
+    color: #b5b5b4;
+}
+
+.foot-line {
+    width: 950px;
+    height: 2px;
+    background-color: #444444;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.owner {
+    width: 370px;
+    line-height: 40px;
+}
+
+.C {
+    width: 10px;
+    line-height: 10px;
+    font-size: 8px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: 2px;
+}
+
+.sign {
+    width: 154px;
+    height: 154px;
+    background: url("../img/spring0.png") no-repeat 0 -138px;
+}
+
+.foot-l {
+    display: inline-block;
+}
+
+.foot-r {
+    display: inline-block;
+    padding-top: 34px;
+    float: right;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+
+
+    /*background-color: #0b1013;
+    opacity: 0.5;*/
+
+
+    z-index: 999;
+    display: none;
+    position: fixed;
+}
+
+
+.tk{
+    width: 274px;
+    height: 178px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    z-index: 1000;
+}
+
+
+.X{
+    width: 17px;
+    height: 17px;
+    background: url("../img/tk-spring.png") no-repeat 0 0;
+    float: right;
+}
+
+.tk0-p{
+    width: 200px;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    margin: 0 auto;
+}
+.tk0-t1{
+    font-size: 20px;
+    vertical-align: 5px;
+    margin-left: 8px;
+    color: #333333;
+
+}
+
+.tk0-t2{
+    color: #666666;
+}
+
+.dg0{
+    width: 24px;
+    height: 24px;
+    background: url("../img/tk-spring.png") no-repeat -37px 0;
+    display: inline-block;
+}
+
+.bingo{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,458 @@
+.nav{
+    height:56px;
+    background-color: #75a749;
+}
+.content{
+    width: 1150px;
+    margin: 0 auto;
+
+}
+.nav_logo{
+    display: inline-block;
+    background-image: url("../img/spring0.png");
+    width:146px;
+    height:36px;
+    margin-top: 10px;
+}
+.d-ipu{
+    display: inline-block;
+    vertical-align: 14px;
+    text-align: center;
+    margin-left: 112px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+.sangle0{
+    width: 0;
+    height:0;
+    border-top:5px solid #999999;
+    border-right:5px solid rgba(255,255,255,0);
+    border-bottom:5px solid rgba(233,240,260,0);
+    border-left:5px solid rgba(30,30,60,0);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line{
+    width: 2px;
+    height: 28px;
+    display: inline-block;
+    background-color: #cccccc;
+    vertical-align: -8px;
+}
+.ipu {
+    display: inline-block;
+    width:437px;
+    height: 32px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+.sch {
+    width: 124px;
+    height: 36px;
+    border: none;
+    background: #5d853a;
+    color: #fff;
+    font-size:16px;
+    font-weight: 600;
+    float: right;
+    display: inline-block;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+}
+.spring{
+    width:26px;
+    height:26px;
+    display: inline-block;
+}
+.search{
+    vertical-align: -7px;
+    margin-right: -37px;
+    background: url("../img/spring0.png") no-repeat 2px -73px;
+    position: absolute;
+    top: 4px;
+    right: 129px;
+}
+.register{
+    line-height: 36px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    word-spacing: 16px;
+}
+
+
+
+
+
+
+/************筛选条件***********/
+.classify{
+    width: 1110px;
+    height: 100px;
+    font-size: 14px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    line-height: 2;
+    border: 1px solid #cccccc;
+}
+
+.classify1{
+    color:#999999;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+
+.classify0{
+    float: left;
+    color:#333333;
+    margin-right: 10px;
+}
+
+.f-classify{
+    float: left;
+    color:#333333;
+    margin-right: 10px;
+}
+
+.classify-sx{
+    float: left;
+    color:#333333;
+    font-size: 14px;
+}
+
+.color{
+    color:#75a749;
+}
+
+.sx{
+    width: 84px;
+    line-height: 20px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.sx-sangle{
+    width: 0;
+    height:0;
+    border-top:5px solid #999999;
+    border-right:5px solid rgba(255,255,255,0);
+    border-bottom:5px solid rgba(233,240,260,0);
+    border-left:5px solid rgba(30,30,60,0);
+    display: inline-block;
+    position: relative;
+    left: -21px;
+    top:3px;
+}
+
+.a{
+    display: inline-block;
+}
+
+.b{
+    display: inline-block;
+}
+
+.c{
+    display: inline-block;
+    padding-left: 20px;
+    background: url("../img/check.png") no-repeat 1px -26px;
+}
+
+.d{
+    display: inline-block;
+    padding-left: 20px;
+    background: url("../img/check.png") no-repeat 1px -26px;
+}
+
+.e{
+    background: url("../img/check.png") no-repeat 1px 7px;
+}
+
+.f{
+    position: absolute;
+    display: none;
+    padding-left: 8px;
+    border: 1px solid #cccccc;
+    width: 84px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.say{
+    height: 40px;
+    background-color: #eeeeee;
+}
+
+.say0{
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+}
+
+.c-bg{
+    color: #fff;
+    background-color: #75a749;
+}
+
+.s-font{
+    color: #75a749;
+}
+
+.s-bg{
+    border-color: #75a749;
+}
+
+.sangle00{
+    width: 0;
+    height:0;
+    border-top:5px solid #999999;
+    border-right:5px solid rgba(255,255,255,0);
+    border-bottom:5px solid rgba(233,240,260,0);
+    border-left:5px solid rgba(30,30,60,0);
+    display: inline-block;
+    margin-left: -10px;
+    vertical-align: -6px;
+}
+
+.sangle1{
+    width: 0;
+    height:0;
+    border-top:5px solid rgba(233,240,260,0);
+    border-right:5px solid rgba(255,255,255,0);
+    border-bottom:5px solid #999999;
+    border-left:5px solid rgba(30,30,60,0);
+    display: inline-block;
+    vertical-align: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/************图片***********/
+
+.house{
+
+}
+
+.f1{
+    float: left;
+}
+
+.f2{
+    float: right;
+}
+
+.exp-box{
+    margin:30px auto;
+}
+
+.explain00{
+    float: left;
+    margin-left: 20px;
+}
+
+.exp-img{
+    float: left;
+    margin-left: 20px;
+    width: 254px;
+    height: 208px;
+}
+
+.explain2{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 2.5;
+    color: #333333;
+}
+.man{
+    background: url("../img/spring0.png") no-repeat -34px -74px;
+    vertical-align: -4px;
+}
+
+.cc{
+    background: url("../img/spring0.png") no-repeat -70px -74px;
+    vertical-align: -4px;
+}
+
+.map{
+    background: url("../img/spring0.png") no-repeat -101px -74px;
+    margin-left: -7px;
+    vertical-align: -4px;
+}
+
+.ask{
+    font-size:14px;
+    color:#959595;
+    line-height: 2.5;
+}
+
+.tag{
+    font-size:14px;
+    line-height: 2.5;
+    text-align: center;
+    padding: 4px 9px;
+    margin-right:12px;
+    /*border-radius: 4px;*/
+}
+
+.tag1{
+    color:#88b9b9;
+    border: 1px solid #88b9b9;
+}
+
+.tag2{
+    color:#de958f;
+    border: 1px solid #de958f;
+}
+
+.line1{
+    border-bottom: 1px solid #cccccc;
+}
+
+.option{
+    width: 64px;
+    text-align: center;
+    color: #959595;
+    border: 1px solid #cccccc;
+    float: right;
+}
+
+.price{
+    font-size: 24px;
+    color: #eb5f00;
+}
+
+li.price span{
+    font-size: 14px;
+    color: #eb5f00;
+}
+
+.date{
+    color: #959595;
+}
+
+.money{
+    float: right;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+/**********分页************/
+
+.page0{
+    line-height: 100px;
+    text-align: center;
+}
+
+.page{
+    display: inline-block;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 8px;
+}
+
+.page1{
+    line-height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.dis{
+    display: inline-block;
+}
+
+.page-checked {
+    background-color: #ccc;
+    color: #b61d1d;
+}
+
+.foot{
+    height: 260px;
+    background-color: #242623;
+    color: #b5b5b4;
+    border-bottom: 2px solid #444444;
+    border-bottom-width:10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.link{
+    width: 810px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.link a{
+    color: #b5b5b4;
+}
+
+.foot-line{
+    width: 950px;
+    height: 2px;
+    background-color: #444444;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.owner{
+    width: 370px;
+    line-height: 40px;
+}
+
+.C {
+    width: 10px;
+    line-height: 10px;
+    font-size: 8px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: 2px;
+}
+
+.sign{
+    width: 154px;
+    height: 154px;
+    background: url("../img/spring0.png") no-repeat 0 -138px;
+}
+
+.foot-l{
+    display: inline-block;
+}
+
+.foot-r{
+    display: inline-block;
+    padding-top: 34px;
+    float: right;
+    text-align: center;
+}

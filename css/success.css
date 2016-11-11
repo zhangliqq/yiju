@@ -1,0 +1,32 @@
+.tk{
+
+    z-index: 2;
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+
+}
+
+.return{
+    color: #2f9630;
+    margin-right: 10px;
+}
+
+.bingo{
+    display: none;
+}
+/*
+body{
+    background-color: rgba(0,0,0,0.3);
+}
+*/
+
+
+
+
+
+
+
+
+
+

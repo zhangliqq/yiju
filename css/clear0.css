@@ -1,0 +1,66 @@
+
+
+        .f-clear:before,.f-clear:after{
+            content:"";
+            clear:both;
+            display:block;
+            overflow:hidden;
+            font-size:0;
+            height:0;
+            line-height:0;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,dt,table,th,td{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        em,i,th{
+            font-style: normal ;
+            text-decoration: none;
+        }
+        b,strong,h1,h2,h3,h4,h5,h6,th {
+            font-weight: normal;
+            font-size: 100%;
+        }
+        a,u,s{
+            text-decoration: none;
+        }
+        body {
+            font-size: 14px;
+            color: black;
+            font-family:"Arail";
+            line-height:1.5;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        img{
+            border:0;
+        }
+        input{
+            outline: none;
+        }
+        input, select, button, textarea, table {
+            margin: 0;
+            font-family: inherit;
+            font-size: 14px;
+        }
+        textarea{
+            outline: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        table, th, td, img {
+            border: none;
+        }
+
+        th, caption {
+            text-align: left;
+        }

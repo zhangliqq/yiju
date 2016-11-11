@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>发布房源</title>
+    <link rel="stylesheet" href="../css/clear0.css">
+    <link rel="stylesheet" href="../css/fbfy.css">
+    <script type="text/javascript" src="../../0926/jquery-1.8.0.js"></script>
+    <script type="text/javascript" src="../../0926/ajaxfileupload.js"></script>
+</head>
+<body>
+<div class="nav">
+    <div class="content">
+        <a class="nav_logo" href="###"></a>
+        <div class="d-ipu">
+
+            <span style="font-size: 16px;margin-left: 22px;"><span class="add0">郑州</span>
+                <i class="sangle0 add-san"></i><em class="line"></em>
+            </span>
+
+
+            <ul class="add" style="display: none">
+                <li class="add-li">郑州</li>
+                <li class="add-li">上海</li>
+                <li class="add-li">北京</li>
+                <li class="add-li">广州</li>
+                <li class="add-li">天津</li>
+            </ul>
+
+
+            <input class="ipu" type="text" name="input" value="" placeholder="请输入小区名称/区域/庭室" style="font-size:16px">
+            <a href=""><button class="sch">搜房源</button></a>
+            <s class="spring search"></s>
+        </div>
+        <a href="###" class="register">我的昵称 注册</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="#">
+
+    <h1 class="head">免费发布房源</h1>
+    <div class="content">
+        <h2 class="title">类别和身份</h2>
+        <div class="class">
+        <p class="classify"><span class="classify0">*</span><span>出租方式：</span></p>
+        <div class="bb"><div class="aa"></div></div><span>整套出租</span>
+        <div class="bb"><div class="aa"></div></div><span>单间出租</span>
+        <div class="bb"><div class="aa"></div></div><span>床位出租</span>
+        </div>
+        <div class="person">
+            <p class="classify"><span class="classify0">*</span><span>身份：</span></p>
+            <div class="bb"><div class="aa"></div></div><span>个人</span>
+            <div class="bb"><div class="aa"></div></div><span>经济人</span>
+        </div>
+        <h2 class="title">基础信息</h2>
+        <p class="classify"><span class="classify0">*</span><span>小区名称：</span></p><input name="mingzi" value="" type="text" class="radio" placeholder="请输入小区名称" style="width: 354px;text-align: left; text-indent: 1em;margin-left: 3px;">
+        <div class="f-clear">
+            <p class="classify"><span class="classify0">*</span><span>房屋户型：</span></p>
+
+            <input value=""  name="shi" type="text" class="radio" placeholder=""><span class="inp-char">室</span>
+            <input value="" name="ting" type="text" class="radio" placeholder=""><span class="inp-char">厅</span>
+            <input value="" name="wei" type="text" class="radio" placeholder=""><span class="inp-char">卫</span>
+            <input value="" name="area" type="text" class="radio" placeholder=""><span class="inp-char">㎡</span>
+
+
+        </div>
+
+        <div class="">
+            <p class="classify"><span class="classify0">*</span><span>楼层：</span></p>
+            <input value=""  name="floor" type="text" class="radio" placeholder=""><span class="inp-rc">第</span><span class="inp-char inp-char1">层</span>
+            <input value=""  name="countfloor" type="text" class="radio" placeholder=""><span class="inp-rc">共</span><span class="inp-char inp-char1">层</span>
+        </div>
+
+        <div class="">
+            <div class="classify"><span class="classify0">*</span><span>朝向装修：</span></div>
+
+            <s class="addf-box">
+            <div class="select" style="width: 85px;"><span class="select-f">南</span>
+                <i class="sangle0 select-sgle select-sgle-f"></i>
+            </div>
+            <ul class="add-f">
+                <li class="add-li-f">东</li>
+                <li class="add-li-f">西</li>
+                <li class="add-li-f">南</li>
+                <li class="add-li-f">北</li>
+            </ul>
+            </s>
+
+            <s class="addx-box">
+            <div class="select" style="width: 110px;"><span class="select-x">精装修</span>
+                <i class="sangle0 select-sgle select-sgle-x"></i>
+            </div>
+
+            <ul class="add-x">
+                <li class="add-li-x">精装修</li>
+                <li class="add-li-x">毛培</li>
+                <li class="add-li-x">简装</li>
+                <li class="add-li-x">一般</li>
+            </ul>
+            </s>
+        </div>
+
+
+        <div>
+            <div class="classify"><span class="classify0">*</span><span>租金：</span></div>
+            <b style="position: relative">
+                <input value=""  name="price" type="text" class="radio" placeholder="" style="width: 140px;">
+                <span class="inp-rc" style="left: -11em">面议</span>
+                <span class="inp-char" style="left:-6em">元/月</span>
+
+                <em class="addp-box">
+                    <s class="select" style="width: 138px;"><span class="select-p">押一付三</span>
+                    <i class="sangle0 select-sgle select-sgle-p"></i>
+                    </s>
+
+                    <ul class="add-p">
+                        <li class="add-li-p">押一付三</li>
+                        <li class="add-li-p">押一付一</li>
+                        <li class="add-li-p">押二付一</li>
+                        <li class="add-li-p">押三付一</li>
+                    </ul>
+                </em>
+
+            </b>
+
+
+        </div>
+
+
+
+
+        <h2 class="title">详细信息</h2>
+        <div>
+            <div class="classify"><span class="classify0">*</span><span>标题：</span></div>
+            <input value=""  name="tittle" type="text" class="radio" placeholder="8至30个字，不允许特殊字符"
+                   style="width: 354px;text-align: left; text-indent: 1em;">
+
+        </div>
+
+        <div class="box-woof">
+            <div class="classify"><span class="classify0">*</span><span>房屋配置：</span></div>
+
+            <span class="woof">床<em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">衣柜 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">沙发 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">书桌 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">电视 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">冰箱 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">微波炉 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">电磁炉 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof woof-x">洗衣机 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">空调 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">热水器 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">宽带 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+            <span class="woof">暖气 <em class="zz-box"><div class="green"></div><span class="zz">✔</span></em></span>
+
+        </div>
+
+        <div>
+            <div class="classify"><span class="classify0">*</span>特色：</div>
+            <input value=""  name="features" type="text" class="radio" placeholder="请输入4字关键词，不同关键词中间用空格符隔开"
+                   style="width: 354px;text-align: left; text-indent: 1em;">
+
+        </div>
+
+        <div>
+            <div class="classify"><span class="classify0">*</span>地址：</div>
+            <input value=""  name="address" type="text" class="radio" placeholder="请输入正确地址"
+                   style="width: 354px;text-align: left;text-indent: 1em;">
+        </div>
+
+
+        <div id="dv">
+            <input id="sub" type="button" value="上传图片" class="go-to">
+            <input id="file1" name="file" type="file" class="file">
+        </div>
+
+        <div class="pictures"> </div>
+
+        <p class="go-tobt">只能上传房屋图片，不能包含有文字、数字、网址、名片等，最多上传24张，每张最大10M</p>
+
+
+
+
+        <h2 class="title">其它信息</h2>
+        <div>
+            <div class="classify"><span class="classify0">*</span>联系人：</div>
+            <input value=""  name="linkman" type="text" class="radio" placeholder="请填写联系人"
+                   style="width: 354px;text-align: left; text-indent: 1em;">
+        </div>
+
+        <div>
+            <div class="classify"><span class="classify0">*</span>联系电话：</div>
+            <input value=""  name="linkphone" type="text" class="radio" placeholder="请正确填写号码"
+                   style="width: 354px;text-align: left; text-indent: 1em;">
+
+        </div>
+
+
+
+        <input type="button" value="发布" class="publish" onclick="addHouses();" >
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="foot">
+    <div class="content">
+
+        <div class="foot-l">
+            <p class="link">友情链接：
+
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+                <a href="">武汉租房</a>
+
+            </p>
+
+            <p class="foot-line"></p>
+
+            <p class="owner">北京易居房产经纪有限公司|网络经营许可证 京ICP备11024601号-12
+            <span class="C">C</span>
+            易居Copyright
+            <span class="C">C</span>
+            2010-2016 易居yiju.com版权所有
+            </p>
+        </div>
+
+        <div class="foot-r">
+            <div class="sign"></div>
+            <p>微信扫一扫 马上租房</p>
+        </div>
+    </div>
+</div>
+
+<script src="../js/发布房源.js" type="text/javascript"></script>
+
+</body>
+</html>

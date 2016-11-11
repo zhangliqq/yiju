@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>地鼠</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 500px;
+            margin: 0 auto;
+            background-color: red;
+            border: 1px solid rgba(0,0,0,0);
+            text-align: center;
+        }
+
+        #box_ul{
+            width: 330px;
+            margin: 0 auto;
+            list-style: none;
+            border: 1px solid rgba(0,0,0,0);
+            padding-top: 50px;
+
+        }
+        #box_ul li{
+            width: 64px;
+            height: 64px;
+            float: left;
+            list-style: none;
+            border: 1px solid rgba(0,0,0,0);
+        }
+        .text{
+            width: 320px;
+            margin: 0 auto;
+            line-height: 2;
+            list-style: none;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul id="box_ul">
+
+
+    </ul>
+    <ul class="text">
+        <li><input type="button"  id="start" value="start" /></li>
+        <li><input type="button"  id="over" value="over" /></li>
+        <li>游戏时间：1分钟</li>
+        <li>地鼠出现的时间间隔：1秒钟</li>
+        <li>地鼠停留时间：1秒钟</li>
+        <li>
+            <div class="times"></div>
+        </li>
+        <li>-----***分数***----</li>
+        <li>
+            <div class="clickAndLost"></div>
+        </li>
+        <li>
+            <div class="score"></div>
+        </li>
+    </ul>
+</div>
+</body>
+
+
+<script>
+
+
+/*
+window.onload=function(){
+
+
+
+//    console.log(init());
+
+    var ul=document.getElementById('box_ul');
+
+    var str="<li><img src='../img/00.jpg' name='image' onClick='clickMouse(this)'/></li>";
+    init();
+    function init(){
+        for(var i=0;i<25;i++){
+            ul.innerHTML+=str;
+
+        }
+    }
+    //init();
+};
+
+*/
+
+
+
+
+
+window.onload=function(){
+var ck1 ,ck2,ck3; 	//定时器
+var sum = 0;//总的老鼠
+var mouse = 0//打中的老鼠
+var time = 0;// 时间
+var button1,button2;
+
+
+
+ //1.初始化表格
+
+function init(){
+
+    var ul = document.getElementById("box_ul");
+    var str1="<li><img src='../img/00.jpg' name='image' onClick='clickMouse(this)'/></li>";
+    for (var i = 0; i<25; i++) {
+        ul.innerHTML += str1;
+    }
+
+    button1 = document.getElementById("start");
+    button2 = document.getElementById("over");
+
+}
+    init();
+
+
+
+//2. 老鼠出来
+
+function showImage(){
+    var times=document.getElementById("times");
+    times.innerHTML=="剩余时间"+time+"s";
+    time-=1;
+    if(time<0){
+        timeOut();
+        alert("over");
+
+    }
+
+    var str3="打中："+mouse+"只 漏掉："+(sum-mouse)+"只<br>"+
+                    "总分："+sum+100+"得分："+(mouse*100-(sum-mouse)*100);
+
+    document.getElementsById("score").innerHTML=str3;
+
+
+
+
+    var images= document.getElementsByName("image");
+    var index = Math.floor(Math.random() * 25 );
+    images[index].src="../img/01.jpg" ;
+    ck1 = setTimeout("stopImage("+index+")",900);
+    sum += 1;
+}
+
+//老鼠消失
+
+function stopImage(index){
+
+    var images= document.getElementsByName("image");
+
+        images[index].src="../img/02.jpg" ;
+}
+
+function startGame(){
+
+    time = 10;
+    ck2 = setInterval("showImage",1000);
+
+}
+
+
+};
+
+
+    function  clickMouse(a){
+
+        var str2= a.src.substr(a.src.length-6,6);
+        if(str2=="../img01.jpg"){
+            a.src="img.02.jpg";
+            mouse+=1;
+        }
+
+    }
+
+</script>
+</html>

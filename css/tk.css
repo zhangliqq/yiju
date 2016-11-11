@@ -1,0 +1,181 @@
+/*公共*/
+
+.tk{
+    width: 274px;
+    height: 178px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.X{
+    width: 17px;
+    height: 17px;
+    background: url("../img/tk-spring.png") no-repeat 0 0;
+    float: right;
+}
+
+
+
+/*注册弹框*/
+
+.tk0-p{
+    width: 200px;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    margin: 0 auto;
+}
+
+.tk0-t1{
+    font-size: 20px;
+    vertical-align: 5px;
+    margin-left: 8px;
+    color: #333333;
+
+}
+
+.tk0-t2{
+    color: #666666;
+}
+
+.dg0{
+    width: 24px;
+    height: 24px;
+    background: url("../img/tk-spring.png") no-repeat -37px 0;
+    display: inline-block;
+}
+
+
+
+
+/*删除弹框、密码修改*/
+
+.tk1-p{
+    width: 200px;
+    line-height: 14px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.tk1-t1{
+    vertical-align: 2px;
+    margin-left: 8px;
+    color: #333333;
+}
+
+.tk1-inp{
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+
+.tk1-inp1{
+    float: left;
+}
+
+
+.tk1-inp2{
+    float: right;
+}
+.tk1-t2{
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    border-width: 0;
+    border-radius: 4px;
+    background-color: #75a749;
+}
+
+
+.dg1{
+    width: 14px;
+    height: 14px;
+    background: url("../img/tk-spring.png") no-repeat 0 -36px;
+    display: inline-block;
+}
+
+
+
+
+
+/*登录方式*/
+
+.san{
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #eeeeee;
+    border-right: 6px solid rgba(255, 255, 255, 0);
+    border-left: 6px solid rgba(30, 30, 60, 0);
+    margin-left: 23px;
+}
+
+.trl{
+    width: 187px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    position: relative;
+
+    margin-bottom: 100px;
+}
+
+.qq{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url("../img/tk-spring.png") no-repeat 0 -69px;
+    position: absolute;
+    left: 14px;
+    top: 8px;
+}
+
+.box{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+}
+
+.qk{
+    background: url("../img/tk-spring.png") no-repeat -44px -69px;
+    left: 47px;
+}
+
+.twbo{
+    background: url("../img/tk-spring.png") no-repeat -88px -69px;
+    left: 81px;
+}
+
+.weixin{
+    background: url("../img/tk-spring.png") no-repeat -132px -69px;
+    left: 115px;
+}
+
+.weibo{
+    background: url("../img/tk-spring.png") no-repeat -177px -69px;
+    left: 150px;
+}
+
+.bobo{
+    margin: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
